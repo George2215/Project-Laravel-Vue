@@ -1,0 +1,210 @@
+* {
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open Sans", Arial, Sans-serif;
+	font-size: 16px;
+}
+
+header {
+	background:url('../image/FondoCabecera.jpg'), #94b1bb;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center 0;
+}
+
+header .contenedor-logo-menu {
+	padding: 25px;
+	border-bottom: 1px solid rgba(255,255,255,.4);
+}
+
+header .contenedor-logo-menu .logo a {
+	display: block;
+}
+
+header .contenedor-logo-menu .logo a img{
+	vertical-align: top;
+}
+
+header .menu {
+	text-align: right;
+	line-height: 50px;
+}
+
+header .menu a {
+	color: #000;
+	font-size: 18px;
+	margin-left: 20px;
+}
+
+header .menu a:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+header .textos {
+	text-align: center;
+	color: #fff;
+	margin: 150px 0;
+}
+
+header .textos .titulo1,
+header .textos .parrafo1 {
+	font-family: "Open Sans", Arial, Sans-serif;	
+}
+
+header .textos .titulo1 {
+	font-weight: 700;
+}
+
+header .textos span {
+	font-weight: 400;
+}
+
+header .textos .parrafo1 {
+	font-weight: 300;
+}
+
+header .textos .contenedor-btns {
+	margin: 50px;
+}
+
+header .textos .contenedor-btns a {
+	display: inline-block;
+	padding: 25px 0;
+	border: 2px solid #fff;
+	border-radius: 4px;
+	margin: 0 10px;
+	text-align: center;
+	width: 230px;
+	font-weight: 600;
+	color: #000;
+}
+
+header .textos .contenedor-btns a:hover {
+	text-decoration: none;
+	color: #21397d;
+	background: #fff;
+}
+
+.main .servicios {
+	padding: 70px 0;
+}
+
+.main .titulo {
+	text-align: center;
+	font-family: "Open Sans", Arial, Sans-serif;
+	font-weight: 300;
+	font-size: 32px;
+	color: #000;
+	margin-bottom: 70px;
+}
+
+.main .servicios .servicio {
+	text-align: center;
+}
+
+.main .servicios .servicio .titulo1 {
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 
+}
+
+.main .servicios .servicio .parrafo {
+	line-height: 30px;
+	margin-bottom: 20px;
+}
+
+.main .servicios .servicio .imagen {
+	vertical-align: top;
+	margin-bottom: 20px;
+}
+
+.main .acerca-de {
+	background: url('../image/FondoTextura.png');
+	padding: 20px 0 0 0;
+	margin-bottom: 70px
+}
+
+.main .acerca-de .imagen {
+	margin-bottom: 20px;
+}
+
+.main .acerca-de .imagen .img img {	
+	border-radius: 4px;
+	vertical-align: top;
+	width: 100%;
+}
+
+.main .acerca-de .imagen .texto .parrafo {
+	line-height: 25px;
+	text-align: justify;
+	font-weight: 300;
+}
+
+.main .acerca-de .imagen .texto .parrafo.azul {
+	color: #1C5D99;
+}
+
+footer .contacto {
+	background: #3c4045;
+	color: #fff;
+}
+
+footer .contacto .contact {
+	text-align: center;
+}
+
+footer .contacto .contact .titulo {
+	font-size: 36px;
+	margin-bottom: 20px;
+	font-weight: 400;
+}
+
+footer .contacto .calle,
+footer .contacto .correo {
+	font-size: 18px;
+	margin-bottom: 20px;
+	font-weight: 300;	
+}
+
+footer .redes-sociales {
+	text-align: center;
+	padding: 20px 0;
+}
+
+footer .redes-sociales a {
+	display: inline-block;
+	padding: 10px;
+	border-radius: 100px;
+	margin: 0 20px;
+	width: 50px;
+	font-size: 20px;
+	background: #fff;
+	color: #fff;
+}
+
+footer .redes-sociales a:hover {
+	text-decoration: none;
+}
+
+footer .redes-sociales a.twitter {
+	background: #55acee;
+}
+
+footer .redes-sociales a.facebook {
+	background: #3b5998;
+}
+
+footer .redes-sociales a.instagram {
+	background: #3f7296;
+}
+
+.login {
+	margin-top: 60px;
+}
